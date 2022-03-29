@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/rodape.css">    
     <link rel="stylesheet" href="css/dialogNewsletter.css">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width" />
   </head>
   <body>
     <a href="#conteudoPricipal" class="pularNavegacao">Pular para contúdo principal</a>
@@ -285,7 +285,7 @@
             </figure>
           </a>
 
-          <a href="http://blog.apeperia.com.br/design/dicas-como-fotografar-com-celular" class="secaoDestaques-link">
+          <a href="http://blog.apeperia.com.br/design/dicas-como-fotografar-com-celular" class="secaoDestaques-link" aria-labelledby="tituloDestaque2" >
             <figure class="secaoDestaques-destaque" >
               <img src="img/dicas-fotografia.png" 
               class="secaoDestaques-destaque-img">
@@ -339,13 +339,13 @@
             </p>
 
             <div class="contatoCampo contatoCampo--sucesso">
-              <label>Nome: </label>
-              <input type="text" class="contatoCampo--validouFoi" value="Natan Souza" required>
+              <label for="nome">Nome: </label>
+              <input type="text" id="nome" class="contatoCampo--validouFoi"  required>
             </div>  
 
             <div class="contatoCampo contatoCampo--erro">
-              <label>Email: </label>
-              <input type="email" class="contatoCampo--validouErro" required>
+              <label for="email">Email: </label>
+              <input type="email" id="email" class="contatoCampo--validouErro"  required>
               <span class="contatoCampo-msg contatoCampo-msg--erro">
                 Você quis dizer <a href="#">gmail.com?</a>
               </span>
@@ -364,22 +364,22 @@
 
             <div class="contatoCampo">
               <label>Endereço: </label>
-              <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Rua Vergueiro">
+              <input type="text" class="contatoCampo-campoDesabilitado" readonly value="Rua Vergueiro">
             </div>   
 
             <div class="contatoCampo">
               <label>Bairro: </label>
-              <input type="text" class="contatoCampo-campoDesabilitado" disabled value="Vila Mariana">
+              <input type="text" class="contatoCampo-campoDesabilitado" readonly value="Vila Mariana">
             </div>   
 
             <div class="contatoCampo">
               <label>Cidade: </label>
-              <input type="text" class="contatoCampo-campoDesabilitado" disabled value="São Paulo">
+              <input type="text" class="contatoCampo-campoDesabilitado" readonly value="São Paulo">
             </div>   
 
             <div class="contatoCampo">
               <label>Estado: </label>
-              <input type="text" class="contatoCampo-campoDesabilitado" disabled value="SP">
+              <input type="text" class="contatoCampo-campoDesabilitado" readonly value="SP">
             </div>   
 
             <div class="contatoCampo">

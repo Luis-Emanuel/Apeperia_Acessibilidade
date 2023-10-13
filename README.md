@@ -26,7 +26,7 @@
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final do curso em funcionamento](https://luis-emanuel.github.io/Acessibilidade-Apeperia/).
+[Veja o projeto final do curso em funcionamento](https://acessibilidade-apeperia-nt.vercel.app/).
 
 ## 📷FOTOS DO PROJETO
 <div align="center">
